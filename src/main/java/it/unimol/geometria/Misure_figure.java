@@ -1,6 +1,6 @@
-package it.unimol.geometria;
+package main.java.it.unimol.geometria;
 
-public abstract class Misure_figure implements Op_solidi {
+public abstract class Misure_figure implements it.unimol.geometria.Op_solidi {
 
     protected double lunghezza;
     protected double altezza;
