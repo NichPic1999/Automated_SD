@@ -1,6 +1,6 @@
 package it.unimol.geometria.Figure.Figure_senza_raggio;
 
-import it.unimol.geometria.Misure_figure;
+import it.unimol.geometria.Geometria.Misure_figure;
 
 public class Parallelepipedo extends Misure_figure {
 

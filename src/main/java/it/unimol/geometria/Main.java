@@ -1,5 +1,6 @@
 package it.unimol.geometria;
 
+import it.unimol.geometria.Geometria.Misure_figure;
 import it.unimol.geometria.Figure.Figure_senza_raggio.Cubo;
 import it.unimol.geometria.Figure.Figure_senza_raggio.Parallelepipedo;
 import it.unimol.geometria.Figure.figure_con_raggio.Cilindro;
@@ -71,7 +72,7 @@ public class Main {
                                     list_figure.add(cubo);
                                     System.out.println("inserimento avvenuto con successo ");
                                 } else {
-                                    String nome = cubo.nome;
+                                    String nome = cubo.getNome();
                                     if (controllo_nome(list_figure, nome) == 0)
                                         System.out.println("il nome della figura è già presente");
                                     else
@@ -91,7 +92,7 @@ public class Main {
                                     list_figure.add(parallelepipedo);
                                     System.out.println("inserimento avvenuto con successo ");
                                 } else {
-                                    String nome = parallelepipedo.nome;
+                                    String nome = parallelepipedo.getNome();
                                     if (controllo_nome(list_figure, nome) == 0)
                                         System.out.println("il nome della figura  è già presente");
                                     else{
@@ -115,7 +116,7 @@ public class Main {
                                     list_figure.add(piramide_base_quadrata);
                                     System.out.println("inserimento avvenuto con successo ");
                                 } else {
-                                    String nome = piramide_base_quadrata.nome;
+                                    String nome = piramide_base_quadrata.getNome();
                                     if (controllo_nome(list_figure, nome) == 0)
                                         System.out.println(" il nome della figura è già presente");
                                     else{
@@ -139,7 +140,7 @@ public class Main {
                                     list_figure.add(piramide_base_triangolare);
                                     System.out.println("inserimento avvenuto con successo ");
                                 } else {
-                                    String nome = piramide_base_triangolare.nome;
+                                    String nome = piramide_base_triangolare.getNome();
                                     if (controllo_nome(list_figure, nome) == 0)
                                         System.out.println(" il nome della figura è già presente ");
                                     else{
@@ -163,7 +164,7 @@ public class Main {
                                     list_figure.add(cilindro);
                                     System.out.println("inserimento avvenuto con successo ");
                                 } else {
-                                    String nome = cilindro.nome;
+                                    String nome = cilindro.getNome();
                                     if (controllo_nome(list_figure, nome) == 0)
                                         System.out.println(" il nome della figura è già presente  ");
                                     else {
@@ -188,7 +189,7 @@ public class Main {
                                     list_figure.add(cono);
                                     System.out.println("inserimento avvenuto con successo ");
                                 } else {
-                                    String nome = cono.nome;
+                                    String nome = cono.getNome();
                                     if (controllo_nome(list_figure, nome) == 0)
                                         System.out.println("il nome della figura è già presente ");
                                     else {
@@ -212,7 +213,7 @@ public class Main {
                                     list_figure.add(sfera);
                                     System.out.println("inserimento avvenuto con successo ");
                                 } else {
-                                    String nome = sfera.nome;
+                                    String nome = sfera.getNome();
                                     if (controllo_nome(list_figure, nome) == 0)
                                         System.out.println("il nome della figura è già  presente ");
                                     else {

@@ -1,4 +1,4 @@
-package main.java.it.unimol.geometria;
+package it.unimol.geometria.Geometria;
 
 public abstract class Misure_figure implements it.unimol.geometria.Op_solidi {
 

@@ -1,6 +1,7 @@
 package it.unimol.geometria.Figure.figure_con_raggio;
 
-        import it.unimol.geometria.Misure_figure;
+
+        import it.unimol.geometria.Geometria.Misure_figure;
         import it.unimol.geometria.Op_solidi;
 
 

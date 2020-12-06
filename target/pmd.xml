@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.21.0" timestamp="2020-12-06T17:13:37.437">
+<file name="C:\Users\nicho\Desktop\Homework Java\Homework Geometria\src\main\java\it\unimol\geometria\Figure\Figure_senza_raggio\Piramide_base_quadrata.java">
+<violation beginline="17" endline="17" begincolumn="16" endcolumn="34" rule="UnusedLocalVariable" ruleset="Best Practices" package="it.unimol.geometria.Figure.Figure_senza_raggio" class="Piramide_base_quadrata" method="superficie" variable="superficie_laterale" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'superficie_laterale'.
+</violation>
+</file>
+<file name="C:\Users\nicho\Desktop\Homework Java\Homework Geometria\src\main\java\it\unimol\geometria\Geometria\Misure_figure.java">
+<violation beginline="110" endline="110" begincolumn="55" endcolumn="61" rule="UselessParentheses" ruleset="Code Style" package="it.unimol.geometria.Geometria" class="Misure_figure" method="calcolo_distanza" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
+Useless parentheses.
+</violation>
+<violation beginline="110" endline="110" begincolumn="80" endcolumn="86" rule="UselessParentheses" ruleset="Code Style" package="it.unimol.geometria.Geometria" class="Misure_figure" method="calcolo_distanza" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
+Useless parentheses.
+</violation>
+<violation beginline="110" endline="110" begincolumn="105" endcolumn="111" rule="UselessParentheses" ruleset="Code Style" package="it.unimol.geometria.Geometria" class="Misure_figure" method="calcolo_distanza" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
+Useless parentheses.
+</violation>
+</file>
+</pmd>

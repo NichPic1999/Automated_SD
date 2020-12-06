@@ -1,6 +1,6 @@
 package it.unimol.geometria.Supporto_main;
 
-import it.unimol.geometria.Misure_figure;
+import it.unimol.geometria.Geometria.Misure_figure;
 
 import java.util.ArrayList;
 
