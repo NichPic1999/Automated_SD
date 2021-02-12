@@ -14,8 +14,6 @@ public class Piramide_base_quadrata extends Misure_figure {
         double apotema_di_base=lunghezza/2;  // serve a calcolare l'apotema della piramide
         double apotema_della_piramide= Math.sqrt(Math.pow(altezza,2)+Math.pow(apotema_di_base,2)); //apotema della piramide
         double area_base = lunghezza*lunghezza;
-        double superficie_laterale = (perimetro_base * apotema_della_piramide)/2;
-        //
 
         double superficie_totale_piramide_base_quadrata = (area_base*altezza)/3;
 
