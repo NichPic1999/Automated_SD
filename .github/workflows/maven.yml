@@ -10,6 +10,8 @@ on:
     branches: [ main ]
 
 jobs:  
+
+   
   
    PMD-start:
      name: PMD check
@@ -30,5 +32,9 @@ jobs:
           java-version: 1.8
       - name: Build with Maven
         run: mvn -B package --file pom.xml
-        
+      - name: Publish Artifact
+        uses: actions/upload-artifact@v2
+        with:
+         path: target/Homework_Geometria-1.0-SNAPSHOT.jar
+         name: Homework_Geometria
   
