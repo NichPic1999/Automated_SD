@@ -2,6 +2,8 @@ FROM openjdk:14
 
 RUN mkdir /artifact
 RUN cd artifact
+#
+#c8c66bd9cf386e9b0293d538c458abd73ebeef18
 
 WORKDIR /artifact
 
