@@ -17,6 +17,7 @@ jobs:
      name: PMD check
      runs-on: ubuntu-latest
      steps:
+       - uses: actions/checkout@v1
        - name: maven pmd
          run: mvn pmd:pmd
      
